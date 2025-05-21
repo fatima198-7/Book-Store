@@ -501,6 +501,7 @@ header nav{
     flex-direction: column;
     width: 100%;
     position: absolute;
+    align-self: center;
     top: 0;
     left: 0;
 }
@@ -510,9 +511,12 @@ header nav ul{
 header nav ul li{
     padding: 12px 0px;
     color: white; 
+   
 }
 header nav ul li a{
     color: white; 
+    display: flex;
+    justify-content: center;
 }
 header nav button{
     background-color: var(--bg-1);
